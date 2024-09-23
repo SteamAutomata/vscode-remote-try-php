@@ -7,4 +7,9 @@ function Sum($nbs) : float {
 	return $sum;
 }
 
+function Sex($nbs) {
+	return max($nbs);
+}
+
 echo Sum([10, 20, 5]);
+echo Sex([10,5, 30]);
